@@ -13,7 +13,7 @@ class program
         while (!exit)
         {
             // Display menu options
-            Console.ForegroundColor  = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("1.Enter recipe ");
             Console.WriteLine("2.Display recipe ");
             Console.WriteLine("3.Scale Recipe ");
