@@ -15,7 +15,7 @@ namespace AimeNdumuhire_st10255663_POE
         private string[] steps;
         private double scale;
 
-        // Constructor to initialize arrays
+        // Constructor to initialize arrays 
         public RecipeManager()
         {
             ingredients = new string[0];
