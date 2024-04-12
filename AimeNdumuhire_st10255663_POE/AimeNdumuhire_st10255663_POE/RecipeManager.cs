@@ -15,6 +15,7 @@ namespace AimeNdumuhire_st10255663_POE
         private string[] steps;
         private double scale;
 
+        // Constructor to initialize arrays
         public RecipeManager()
         {
             ingredients = new string[0];
@@ -24,6 +25,8 @@ namespace AimeNdumuhire_st10255663_POE
             scale = 1.0;
 
         }
+
+        // Method to enter recipe 
         public void EnterRecipeDetails()
         {
             Console.Write("Enter the number of ingredients: ");
@@ -35,6 +38,7 @@ namespace AimeNdumuhire_st10255663_POE
             quantities = new double[numIngredients];
             units = new string[numIngredients];
 
+            // Loop to input ingredient 
             for (int i = 0; i < numIngredients; i++)
             {
 
@@ -57,7 +61,7 @@ namespace AimeNdumuhire_st10255663_POE
             int numSteps = int.Parse(Console.ReadLine());
             Console.WriteLine();
             steps = new string[numSteps];
-
+            // Loop to input steps
             for (int i = 0; i < numSteps; i++)
             {
 
@@ -66,7 +70,7 @@ namespace AimeNdumuhire_st10255663_POE
                 Console.WriteLine();
             }
         }
-
+        // Method to display recipe details
         public void DisplayRecipe()
         {
 
@@ -85,7 +89,7 @@ namespace AimeNdumuhire_st10255663_POE
             }
             Console.WriteLine();
         }
-
+        // Method to scale recipe quantities
         public void ScaleRecipe()
         {
             Console.Write("Enter the scaling factor (0.5, 2, or 3): ");
@@ -104,14 +108,14 @@ namespace AimeNdumuhire_st10255663_POE
 
             Console.WriteLine();
         }
-
+        // Method to reset ingredient quantities to original values
         public void ResetQuantities()
         {
             scale = 1.0;
             Console.WriteLine("Quantities reset to original values.");
             Console.WriteLine();
         }
-
+        // Method to clear recipe data
         public void ClearData()
         {
             ingredients = new string[0];

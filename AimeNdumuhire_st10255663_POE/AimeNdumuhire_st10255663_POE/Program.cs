@@ -12,6 +12,8 @@ class program
         bool exit = false;
         while (!exit)
         {
+            // Display menu options
+            Console.ForegroundColor  = ConsoleColor.Blue;
             Console.WriteLine("1.Enter recipe ");
             Console.WriteLine("2.Display recipe ");
             Console.WriteLine("3.Scale Recipe ");
@@ -21,8 +23,11 @@ class program
             Console.WriteLine();
 
             Console.Write("Enter your choice: ");
+            // Get user choice
             string choice = Console.ReadLine();
             Console.WriteLine();
+
+            // Perform action based on user 
             switch (choice)
             {
                 case "1":
