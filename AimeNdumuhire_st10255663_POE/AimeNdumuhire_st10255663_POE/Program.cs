@@ -1,3 +1,5 @@
+//Author: Aime Ndumuhire
+
 // See https://aka.ms/new-console-template for more information
 namespace AimeNdumuhire_st10255663_POE;
 
