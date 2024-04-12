@@ -1,4 +1,4 @@
-//Author: Aime Ndumuhire
+//Author: Aime Ndumuhire.
 //Github: https://github.com/aime-ishimwe
 
 using System;
