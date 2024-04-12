@@ -27,7 +27,7 @@ class program
             string choice = Console.ReadLine();
             Console.WriteLine();
 
-            // Perform action based on user 
+            // Perform action based on user  
             switch (choice)
             {
                 case "1":
